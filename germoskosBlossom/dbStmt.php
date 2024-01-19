@@ -27,7 +27,7 @@ $dbHand = null;
 
 //creating connection to DB
 try{
-    $dbHandler = new PDO("mysql:host=mysql;dbname=localhost;charset=utf8", $user, $pass);
+    $dbHandler = new PDO("mysql:host=localhost;dbname=Germoskos;charset=utf8", $user, $pass);
 } catch(Exception $ex){
     echo $ex;
 }
