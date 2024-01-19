@@ -11,8 +11,8 @@
           // Database connectie parameters
           $host = "mysql";
           $dbname = "Bugreporter";
-          $user = "root";
-          $pass = "groupb";
+          $user = "germoskos";
+          $pass = "qwerty";
   
           // Probeer de connectie te maken
           try {
