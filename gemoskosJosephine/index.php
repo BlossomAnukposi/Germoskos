@@ -9,7 +9,7 @@
     <h3>Overview over bugs in the database:</h3>
     <?php 
           // Database connectie parameters
-          $host = "mysql";
+          $host = "localhost";
           $dbname = "Bugreporter";
           $user = "germoskos";
           $pass = "qwerty";

@@ -1,8 +1,8 @@
 <?php
 // Databaseconfiguratie
-$host = "mysql";
+$host = "localhost";
 $dbname = "Bugreporter";
-$user = "groupb";
+$user = "germoskos";
 $pass = "qwerty";
 
 try {
@@ -83,25 +83,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <form action="" method="post">
 	    <h2>Bewerk Bugrapport</h2>
-        <label for="productnaam">Productnaam:</label>
+        <label for="productnaam">Product name</label>
         <input type="text" name="productnaam" value="<?php echo htmlspecialchars($productnaam); ?>" required>
 
-        <label for="productversie">Productversie:</label>
+        <label for="productversie">Product version</label>
         <input type="text" name="productversie" value="<?php echo htmlspecialchars($productversie); ?>" required>
 
-        <label for="hardware">Type hardware:</label>
+        <label for="hardware">Hardware type:</label>
         <input type="text" name="hardware" value="<?php echo htmlspecialchars($hardware); ?>" required>
 
-        <label for="besturingssysteem">Besturingssysteem:</label>
+        <label for="besturingssysteem">System:</label>
         <input type="text" name="besturingssysteem" value="<?php echo htmlspecialchars($besturingssysteem); ?>" required>
 
-        <label for="frequentie">Frequentie van het optreden:</label>
+        <label for="frequentie">Frequency:</label>
         <input type="text" name="frequentie" value="<?php echo htmlspecialchars($frequentie); ?>" required>
 
-        <label for="oplossing">Voorgestelde oplossingen:</label>
+        <label for="oplossing">Solution:</label>
         <textarea name="oplossing" rows="4" required><?php echo htmlspecialchars($oplossing); ?></textarea>
 
-        <input type="submit" value="Rapport indienen">
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
