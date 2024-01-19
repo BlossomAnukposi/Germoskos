@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 7vw 1fr;
+}
+
+.navImg {
+    width: 3vw;
+}
+
+nav {
+    position: sticky;
+    left: 0;
+    top: 0;
+    padding: 15vh 2vw;
+    height: 100vh;
+    border-right: rgb(162, 162, 162) solid;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 7vh;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 2vw;
+}
+
+.middle {
+    padding: 3vw 2vw;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.bottom {
+    margin: 0 2vw 0;
+    border: 1px grey solid;
+}
+
+.dashHeader {
+    background-color: rgb(60, 60, 60);
+}
+
+.tipDash tr th {
+    padding: 1vw 1vw 1vw 0;
+    color: white;
+    font-weight: 100;
+}
+
+.tipDash tr td {
+    padding: 0 0 1vw;
+    border: 1px solid grey;
+}
+
+.mainDash {
+    margin: 5vw 7vw;
+}
+
+table {
+    margin: 0 0 2vw;
+    border: 1px solid grey;
+}
+
+.formId {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+    padding: 1%;
+    background-color: rgb(237, 237, 237);
+    width: 15vw;
+    height: 35%;
+    border: 1px solid grey;
+}
+
+.formId>select {
+    height: 50%;
+    width: 70%;
+}
+
+.info {
+    margin-left: 5vw;
+}
+
+.info>table {
+    border: none;
+}
+
+.info select,
+.info input {
+    margin-left: 10vw;
+    width: 15vw;
+}
+
+.Btns {
+    display: flex;
+    flex-direction: row;
+    gap: 7vw;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.dummyBtn {
+    width: 10vw;
+    cursor: pointer;
+}
+
+textarea {
+    width: 85vw;
+    height: 20vh;
+    margin: 1vw 4vw;
+    resize: vertical;
+    padding: 1vw;
+}
+
+.send {
+    text-align: center;
+}
+
+.send input {
+    padding: 0.5rem 2rem;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    border-top: grey solid 1px;
+    padding: 1vw;
+    margin-top: 2vw;
+}
