@@ -2,7 +2,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $host = "mysql";
     $dbname = "Bugreporter";
-    $user = "root";
+    $user = "groupb";
     $password = "qwerty";
 
     try {

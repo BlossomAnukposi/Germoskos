@@ -12,7 +12,7 @@
           $host = "mysql";
           $dbname = "Bugreporter";
           $user = "root";
-          $pass = "qwerty";
+          $pass = "groupb";
   
           // Probeer de connectie te maken
           try {

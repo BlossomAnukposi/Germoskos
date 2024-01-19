@@ -2,7 +2,7 @@
 // Databaseconfiguratie
 $host = "mysql";
 $dbname = "Bugreporter";
-$user = "root";
+$user = "groupb";
 $pass = "qwerty";
 
 try {
