@@ -4,7 +4,7 @@ $id = $_GET['Tip_id'];
 
 //creating connection to DB
 try{
-    $dbHandler = new PDO("mysql:host=mysql;dbname=Germoskos;charset=utf8", $user, $pass);//QUESTION: I haven't made the db yet, what should I do here?
+    $dbHandler = new PDO("mysql:host=localhost;dbname=Germoskos;charset=utf8", $user, $pass);//QUESTION: I haven't made the db yet, what should I do here?
 } catch(Exception $ex){
     echo $ex;
 }

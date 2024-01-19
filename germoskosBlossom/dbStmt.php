@@ -7,7 +7,7 @@ $dbHandler = null;
 
 //creating connection to PHPMyAdmin
 try{
-    $dbHand = new PDO("mysql:host=mysql;charset=utf8", $user, $pass);//QUESTION: I haven't made the db yet, what should I do here?
+    $dbHand = new PDO("mysql:host=localhost;charset=utf8", $user, $pass);//QUESTION: I haven't made the db yet, what should I do here?
 } catch(Exception $ex){
     echo $ex;
 }
