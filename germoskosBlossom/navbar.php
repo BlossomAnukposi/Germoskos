@@ -1,7 +1,7 @@
 <?php
     //creating variables
     $pass = "qwerty";
-    $user = "root";
+    $user = "germoskos";
     $dbHand = null;
 
     echo "
